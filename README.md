@@ -20,10 +20,12 @@ We then segment them into smaller chunks and utilize the
 **thenlper/gte-small** model to encode them into
 vector representations. The resulting embeddings are then
 stored in a vector database.
-**3) **Retriever:** For each user query, we first embed it and
+
+**2) **Retriever:** For each user query, we first embed it and
 then compute the cosine similarity to retrieve the Top-K most
 relevant documents from the vector database.
-**4) Generator:** We use OpenAI’s **GPT-4o-mini ** as
+
+**3) Generator:** We use OpenAI’s **GPT-4o-mini ** as
 our generator (LLM). The retrieved relevant documents are
 combined with the user query into a structured prompt (LLM
 Prompt), fed into the generator to produce the final output.
