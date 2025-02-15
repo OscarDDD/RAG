@@ -14,6 +14,7 @@ components: context, question, and reference answer.
 ## RAG system implementation
 We constructed a basic Retrieval-Augmented Generation
 (RAG) system.
+
 **1) Pre-processing:** First, we extract all context entries from
 the database, storing each entry as an individual document.
 We then segment them into smaller chunks and utilize the
@@ -21,7 +22,7 @@ We then segment them into smaller chunks and utilize the
 vector representations. The resulting embeddings are then
 stored in a vector database.
 
-**2) **Retriever:** For each user query, we first embed it and
+**2) Retriever:** For each user query, we first embed it and
 then compute the cosine similarity to retrieve the Top-K most
 relevant documents from the vector database.
 
