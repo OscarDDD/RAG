@@ -34,7 +34,7 @@ RAG system to generate the final LLM-produced answers.
 These answers, along with the corresponding questions, references, and contexts from the dataset, form a new evaluation
 dataset. 
 
-## Method
+# Method
 **FactualCorrectness** is a metric that compares and evaluates
 how factually accurate the generated response is compared
 with the reference. This metric is used to determine the extent
@@ -54,7 +54,9 @@ Among the methods used in RAGAS are techniques such
 as splitting sentences into atomic statements and employing
 embedding models to compute similarity values.
 
-## Result
+More Information about the method, validation and result analysis can be found in the paper **seminar**.
+
+# Result
 **Atomic Facts and Generated Questions:** All the atomic facts extracted from contexts, answers and references for metric Faithfulness and Factual Correctness. All the generated questions for the metric Response Relevancy.
 
 **Evaluation Set:** The whole evaluation set for this environment, containing question, context, answer and reference.
@@ -67,7 +69,6 @@ embedding models to compute similarity values.
 
 
 **Validation:** The semantic-based score to validate the proposed LLM-driven method.
-
 
 # Source Code
 
