@@ -54,7 +54,7 @@ Among the methods used in RAGAS are techniques such
 as splitting sentences into atomic statements and employing
 embedding models to compute similarity values.
 
-More Information about the method, validation and result analysis can be found in the paper **seminar**.
+More Information about the method, validation and result analysis can be found in the paper **Seminar**.
 
 # Result
 **Atomic Facts and Generated Questions:** All the atomic facts extracted from contexts, answers and references for metric Faithfulness and Factual Correctness. All the generated questions for the metric Response Relevancy.
