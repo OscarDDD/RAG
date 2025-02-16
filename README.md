@@ -73,6 +73,13 @@ More Information about the method, validation and result analysis can be found i
 
 **Validation:** The semantic-based score to validate the proposed LLM-driven method.
 
-# Source Code
+# Code
 
-If you are intersted in the source code, please contact oskardong@outlook.com.
+These codes serve as a basic idea for demonstrating the experiment. Originally, these codes were run in a Kaggle notebook, so they are adapted for Kaggle.
+
+We will provide a more structured and refined version of the code later.
+
+**Experiment Part1:** It contains the code for establishing a RAG system, extracting atomic facts, generating questions and RAGAS evaluation.
+
+**Experiment Part2:** It contains the code for generating our own evaluationresults  and validating the result using semantic simialrity. 
+
